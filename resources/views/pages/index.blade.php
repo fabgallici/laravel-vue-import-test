@@ -2,15 +2,15 @@
 
 @section('content')
 
-  @include('comps.album')
-  @include('comps.albums')
+  {{-- @include('comps.album')
+  @include('comps.albums') --}}
 
     <div id="app">
       <h3>Test</h3>
 
-      <albums />
-
+      {{-- <albums-old></albums-old> --}}
+      <albums></albums>
     </div>
-
+    <script src="{{ mix('js/app.js') }}"></script>
     
 @endsection
